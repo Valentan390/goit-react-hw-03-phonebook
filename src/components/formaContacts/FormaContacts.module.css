@@ -1,0 +1,38 @@
+.formDivContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid blue;
+  padding: 10px;
+  background-color: aliceblue;
+  margin-bottom: 50px;
+}
+.label {
+  margin-bottom: 5px;
+}
+.buttonForm {
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: block;
+  background-color: yellow;
+  outline: none;
+  border-radius: 10%;
+}
+.buttonForm:hover,
+.buttonForm:focus {
+  background-color: rgb(38, 235, 38);
+}
+
+.inputformDivContainer {
+  font-size: 20px;
+  height: 38px;
+}

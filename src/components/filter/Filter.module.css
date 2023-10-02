@@ -1,0 +1,13 @@
+.divFilter {
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid blue;
+  background-color: aliceblue;
+}
+.inputFilter {
+  width: 410px;
+  height: 38px;
+  font-size: 20px;
+}

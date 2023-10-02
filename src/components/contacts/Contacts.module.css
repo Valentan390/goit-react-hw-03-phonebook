@@ -1,0 +1,35 @@
+.listContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 2px solid blue;
+  background-color: aliceblue;
+}
+.listItemContacts {
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: rgb(249, 249, 247);
+  font-size: 20px;
+}
+
+.buttonDeleteContacts {
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 0;
+  background-color: yellow;
+}
+
+.buttonDeleteContacts:hover,
+.buttonDeleteContacts:focus {
+  background-color: red;
+}
